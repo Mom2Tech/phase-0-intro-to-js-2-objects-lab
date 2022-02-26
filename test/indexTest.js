@@ -1,4 +1,5 @@
 describe('employees', function() {
+  var employee = {}
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
     beforeEach(function () {
       for (const key in employee) {
